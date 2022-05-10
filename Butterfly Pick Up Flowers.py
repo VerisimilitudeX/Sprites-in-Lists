@@ -1,8 +1,3 @@
-"""
-LESSON: 5.4 - Sprites in Lists
-WARMUP 6
-"""
-
 import pygame
 import tsk
 import random
@@ -29,17 +24,13 @@ while drawing:
             drawing = False
 
     butterfly.center = pygame.mouse.get_pos()
-
-    # If the butterfly collides with a flower, remove it
     flowers_to_destroy = []
 
-    # Mark which flowers to remove
     for flower in flowers:
         if pygame.sprite.collide_rect(butterfly, flower):
             print("Destroy flower!")
             flowers_to_destroy.append(flower)
 
-    # Remove flowers
     for flower in flowers_to_destroy:
         flowers.remove(flower)
 
