@@ -1,8 +1,3 @@
-"""
-LESSON: 5.4 - Sprites in Lists
-WARMUP 4
-"""
-
 import pygame
 import tsk
 pygame.init()
@@ -27,8 +22,7 @@ while drawing:
             star.center_y = y
             stars.append(star)
 
-    # Move all stars here
-    for star in stars:
+            for star in stars:
         star.x += .5 * c.get_time()
         star.y += .3 * c.get_time()
 
