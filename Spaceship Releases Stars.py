@@ -1,11 +1,3 @@
-"""
-LESSON: 5.4 - Sprites in Lists
-EXERCISE: Code Your Own
-
-TITLE: [Your Title Here]
-DESCRIPTION: [Your Description Here]
-"""
-
 import pygame
 import tsk
 pygame.init()
