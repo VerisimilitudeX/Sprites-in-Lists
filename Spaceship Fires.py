@@ -17,7 +17,7 @@ while drawing:
 
         if event.type == pygame.MOUSEBUTTONDOWN:
             x, y = pygame.mouse.get_pos()
-            star = tsk.Sprite("Star.png", 0, 0)
+            star = tsk.Sprite("BulbSmallRedOn.png", 0, 0)
             star.center_x = x
             star.center_y = y
             stars.append(star)
